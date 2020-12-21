@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".user_client.profile.EditprofileActivity">
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/edt_fname"
+                    android:textSize="18sp"
+                    android:hint="@string/fname"
+                    android:padding="10dp"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+
+                    android:id="@+id/edt_lname"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:hint="@string/lname"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+
+                    android:id="@+id/edt_dob"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:hint="Date de naissance"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+
+                    android:id="@+id/edt_mobileno"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:hint="@string/phone_number"
+                    android:inputType="number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/spiner_location"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:hint="@string/address"
+                    android:maxLines="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:clickable="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/edt_city"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:hint="@string/city"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/edt_state"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:hint="@string/state"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/edt_country"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:hint="@string/country"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <EditText
+                    android:id="@+id/edt_zip"
+                    android:textSize="18sp"
+                    android:padding="10dp"
+                    android:hint="@string/postal_code"
+                    android:maxLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+       <LinearLayout
+
+           android:layout_marginTop="15dp"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:textColor="@color/black"
+               android:textSize="16sp"
+
+               android:layout_width="match_parent"
+
+               android:layout_height="wrap_content"
+               android:text="Note  "/>
+           <TextView
+               android:textColor="@color/red"
+               android:textSize="15sp"
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Tout changement de prénom, nom, date de naissance ou nationalité dans votre profil nécessitera que vous nous renvoyez les documents nécessaires pour la vérification de votre identité si vous souhaitez faire un virement vers votre compte bancaire."/>
+       </LinearLayout>
+
+            <Button
+
+                android:onClick="editprofile"
+                android:background="@drawable/button_shape"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:textAllCaps="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

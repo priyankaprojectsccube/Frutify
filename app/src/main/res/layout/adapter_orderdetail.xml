@@ -1,0 +1,241 @@
+<androidx.cardview.widget.CardView
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/name"
+                android:text="@string/product_name"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/product"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/name"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/price"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                 android:id="@+id/pri"
+                android:textSize="15sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/pri"
+                android:textSize="16sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="@string/quantity"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:id="@+id/quent"
+                android:textSize="15sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/quentity"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/quent"
+                android:textSize="16sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/shippingc"
+                android:text="@string/shipping_costcurrency"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/shippingcost"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/shippingc"
+                android:textSize="16sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tot"
+                android:text="@string/totalamount"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/total"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/tot"
+                android:textSize="16sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/stat"
+                android:text="@string/status"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/status"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/stat"
+                android:textSize="16sp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/adcomment"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addacommenet"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:elevation="2dp"
+                android:layout_margin="2dp"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                />
+
+            <RatingBar
+
+                android:visibility="gone"
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="@dimen/five_dp"
+                android:clickable="false"
+                android:isIndicator="true"
+                android:max="5"
+                android:numStars="5"
+                android:progressTint="@color/yellow"
+                android:stepSize="0.5"
+                android:transformPivotX="20dp"
+                android:transformPivotY="0dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

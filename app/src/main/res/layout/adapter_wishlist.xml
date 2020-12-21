@@ -1,0 +1,97 @@
+<androidx.cardview.widget.CardView
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/layoutmain"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/product"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="@dimen/five_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="@dimen/five_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/offertype"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/red"
+            android:layout_marginBottom="@dimen/five_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/movetocart"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/movetocart"
+                android:layout_margin="2dp"
+                android:textSize="14sp"
+                android:elevation="2dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                />
+            <TextView
+                android:id="@+id/delete"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:elevation="2dp"
+                android:layout_margin="2dp"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

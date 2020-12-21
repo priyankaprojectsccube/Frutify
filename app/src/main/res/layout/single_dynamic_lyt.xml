@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/dynamic_lytbackground"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#F2F2F2"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/unitofmeasure"
+                    android:textColor="@android:color/black" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_roundedcorner">
+
+                    <Spinner
+                        android:id="@+id/unit_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical" />
+                    <!--               <ImageView-->
+                    <!--                   android:layout_width="30dp"-->
+                    <!--                   android:layout_height="30dp"-->
+                    <!--                   android:padding="10dp"-->
+                    <!--                   android:layout_centerInParent="true"-->
+                    <!--                   android:layout_alignParentEnd="true"-->
+                    <!--                   android:src="@drawable/down_arrow"/>-->
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/packingof"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edt_weightvalume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_roundedcorner"
+                    android:hint="@string/str_edt_weighthint"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/price"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edt_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_roundedcorner"
+                    android:hint="@string/str_edt_pricehint"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/_5sdp"
+
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_5sdp"
+                    android:text="@string/str_edt_availablenumberhint"
+                    android:textColor="@android:color/black" />
+
+                <EditText
+                    android:id="@+id/edt_avaible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittext_roundedcorner"
+                    android:hint="@string/stredt_amount"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imv_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="@dimen/_5sdp"
+            android:src="@drawable/delete_red" />
+
+        <TextView
+            android:id="@+id/tv_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/green_button_background"
+            android:padding="@dimen/_5sdp"
+            android:text="@string/update"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".user_client.home.PaymentCartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:text="Détails de paiement"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_whiteblack"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/totalpayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_whiteblack"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txtwallet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mywallet"
+                    />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/txtwallet"
+                android:id="@+id/walletprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+            </RelativeLayout>
+            <CheckBox
+                android:id="@+id/walletcheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/one"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+<TextView
+    android:id="@+id/two"
+    android:visibility="gone"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/addnewcard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/gray_btn_bg_pressed_color"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/addanewcard"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layalreadyaddedcard"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_whiteblack"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:text="@string/paybayalreadyaddedcard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+            <CheckBox
+                android:id="@+id/alreadyaddedcardcheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/addedcardrecvew"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/cardno"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            android:background="@drawable/bg_whiteblack"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+                <CheckBox
+                    android:id="@+id/paybycard"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    />
+
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:text="@string/paybycard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    />
+
+
+
+
+
+
+
+            <RadioGroup
+                android:id="@+id/radiopaymentmethodGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+
+
+
+                <!--                    <RadioButton-->
+                <!--                        android:id="@+id/dinarradio"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:drawableLeft="@drawable/dinarsicon" />-->
+
+
+                <RadioButton
+                    android:id="@+id/maestroradio"
+                    android:enabled="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/maestroicon"
+                    />
+
+                <RadioButton
+                    android:enabled="false"
+                    android:id="@+id/visamastercardradio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/visamastercardicon" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Payer"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

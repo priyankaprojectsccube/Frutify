@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".user_client.home.HomeFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/filtecardview"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:padding="20dp"
+        android:elevation="20dp"
+        android:background="@color/colorlgtWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/distancekm"
+                />
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/setkm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/km"
+                    android:layout_toRightOf="@+id/setkm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_marginTop="5dp"
+                android:id="@+id/seekbar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="100"/>
+
+
+
+
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prix"
+                />
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/setprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </RelativeLayout>
+
+            <SeekBar
+                android:layout_marginTop="5dp"
+                android:id="@+id/seekbarprice"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:max="100"/>
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Type de vendeur"/>
+
+                    <Spinner
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/type_of_sellerspinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_back"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nom du vendeur"/>
+
+
+                    <EditText
+                        android:id="@+id/edit_name"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:background="@drawable/edit_back"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:text="Catégorie"/>
+                    <Spinner
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/spinner_cat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_back"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sous-catégorie"/>
+
+                    <Spinner
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/spinnersubcat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_back"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <Switch
+                    android:text="Produit(s) disponible(s)"
+                    android:id="@+id/switchproductavailable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                     />
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    android:layout_marginRight="5dp"-->
+                <!--                    android:layout_weight="1">-->
+
+                <!--                    <TextView-->
+                <!--                        android:layout_marginTop="5dp"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:text="Type"/>-->
+
+                <!--                    <Spinner-->
+                <!--                        android:layout_marginTop="5dp"-->
+                <!--                        android:id="@+id/typespinner"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:background="@drawable/edit_back"-->
+                <!--                        />-->
+                <!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="vertical"-->
+
+<!--                    android:layout_marginLeft="5dp"-->
+<!--                    android:layout_weight="1">-->
+<!--                    <TextView-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Active seller"/>-->
+
+<!--                    <Spinner-->
+
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:id="@+id/activeseller"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:background="@drawable/edit_back"-->
+<!--                        />-->
+<!--                </LinearLayout>-->
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/applyfilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Appliquer"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+
+        android:id="@+id/linlaypico"
+        android:layout_below="@+id/filtecardview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_anchorGravity="bottom|right|end">
+
+        <TextView
+            android:id="@+id/mapview"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/map"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/proceed_from_donation"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/proceedfromdonation"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+        <TextView
+            android:id="@+id/myorders"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="My Orders"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:id="@+id/mySale"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/mysale"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/linlaypico"
+        android:id="@+id/linlayanti"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_anchorGravity="bottom|right|end">
+
+        <TextView
+            android:id="@+id/managemyoffer"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="@string/managemyoffer"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+           />
+
+        <TextView
+            android:visibility="gone"
+        android:id="@+id/mydonation"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:text="@string/my_donation"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_below="@+id/linlayanti"
+        android:visibility="gone"
+        android:textSize="16sp"
+        android:id="@+id/searchin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_all_products"
+    android:layout_below="@+id/searchin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+
+    <TextView
+        android:id="@+id/textviewproductsearch"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/rv_all_products"
+        android:text="Pas encore de produits disponibles pour cette sélection. Soyez patient et n’hésitez pas à parler de Fruiteefy autour de vous et à partager sur les réseaux sociaux! "
+        />
+
+    <TextView
+        android:id="@+id/textviewantioffer"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/rv_all_products"
+        android:text="Devenez un acteur actif de l'économie collaborative et de la biodiversité. N’hésitez pas à contribuer en récupérant les graines reproductibles de votre jardin et en les mettant à disposition dans une graineothèque près de chez vous."
+
+        />
+</RelativeLayout>
+<!--android:text="Devenez un acteur actif de l'économie collaborative et de la lutte contre le gaspillage des ressources! N’hésitez pas à ajouter une offre pour donner ou échanger vos surplus (Graines, fruits que vous ne cueillez pas, fleurs comestibles, plantes aromatiques, semis, etc….)"-->

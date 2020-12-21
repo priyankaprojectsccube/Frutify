@@ -1,0 +1,849 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Fruiteefy</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="company_name">Company Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="iam">I Am</string>
+    <string name="typeofdepositaccount">Type of deposite account</string>
+    <string name="settingcode">Sorting Code</string>
+    <string name="accountno">Account number</string>
+    <string name="branchcode">Branch Code</string>
+    <string name="collectiondeliverydate">Collection/delivery date</string>
+    <string name="delivercost">Delivery cost:</string>
+    <string name="cardtype">Card type</string>
+    <string name="cardno">Card number</string>
+    <string name="cvv">CVV</string>
+    <string name="ownersaddrline1">Owner\'s address (line 1)</string>
+    <string name="ownersaddrline2">Owner\'s address (line 2)</string>
+    <string name="type">Type</string>
+    <string name="availbletxt">If you did not find this donation or if you have recovered it, please notify it here:</string>
+    <string name="expiry">Expiry</string>
+    <string name="cardaddedsucessfully">Card added sucesfully</string>
+    <string name="cardnotaddedsucessfully">Card not added</string>
+
+
+    <string name="nomatchingresult">No matching result found</string>
+
+
+    <string name="facebook_app_id">714522302343331</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="emailidoptional">Email ID(Optional)</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="entermsg">Enter Message</string>
+    <string name="address">Address</string>
+    <string name="password">Password</string>
+    <string name="authentication_dialog_title">Authentication required</string>
+    <string name="seen">Seen</string>
+    <string name="typemessage">Type a message...</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="exchange">To exchange</string>
+    <string name="products">Product(s)</string>
+    <string name="seethegarden">See the garden</string>
+
+    <string name="enterrecipyimage">Please insert a photo / image / videos for the recipe</string>
+    <string name="pleaseinformifproductaretreatedornot">Please inform if the products are treated or not</string>
+    <string name="delete">Delete</string>
+    <string name="punctuality">Punctuality</string>
+    <string name="quality">Quality</string>
+    <string name="ratethisreceipy">Rate this recipe</string>
+    <string name="ratethisproduct">Rate this product</string>
+    <string name="Conformity">Conformity</string>
+    <string name="quantity">Quantity</string>
+    <string name="quantitysold">Quantities sold</string>
+    <string name="quantityavailable">Quantities available</string>
+    <string name="unit">Unit</string>
+    <string name="unitofmeasure">Unit of measure</string>
+    <string name="enterunitofmeasure">Please enter unit of measurement</string>
+    <string name="enteryouravailability">Please enter your availability</string>
+    <string name="enterproductname">Please Enter Product Name</string>
+
+    <string name="give">Give</string>
+    <string name="sell">Sell</string>
+    <string name="command">Command</string>
+    <string name="select">Select</string>
+    <string name="selectyouravailability">Select your availability</string>
+    <string name="RelatedToOffers">Related To Offers</string>
+    <string name="RelatedToAddress">Related To Address</string>
+    <!--    offetype-->
+    <string name="sell_ot">Sell</string>
+    <string name="sell_ep_ot">Sell(Exchange Possible)</string>
+    <string name="give_ot">Give</string>
+    <string name="toexchange_ot">To Exchange</string>
+    <string name="search_ot">Search</string>
+
+    <string name="select_offer_type">Offer Type</string>
+    <string name="addacommenet">Add a comment</string>
+    <string name="addtomygarden">Add to my garden</string>
+    <string name="selectcat">Please select category</string>
+    <string name="selectsubcat">Please select subcategory</string>
+    <string name="enterdeliverymethod">Please enter delivery method</string>
+    <string name="opinioncommentry">Opinion/Commentary</string>
+    <string name="bookfortwoeuro">Book for 2 €</string>
+    <string name="pleaseselectcardforpyment">Please select card for payment</string>
+    <string name="willbedeductedfromyourwalllet"> Will be deducted from your wallet</string>
+    <string name="willbedeductedfrombankaccout">Will be deducted from your bank account</string>
+    <string name="Ofthemonth">Of the month:</string>
+    <string name="monthly">Monthly</string>
+    <string name="productsavailable">Products Available</string>
+    <string name="availablequantity">Available quantity</string>
+    <string name="sendamsg">Send a message</string>
+    <string name="passnotmatch">Password not matching</string>
+    <string name="email_error">Invalid Email Id</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or">OR</string>
+    <string name="pass_error"> Password must be at least 6 characters</string>
+    <string name="register">Sign UP</string>
+    <string name="region">Region</string>
+    <string name="loginreg">Login/Register</string>
+    <string name="login">Login</string>
+    <string name="discountpromocode">Discount promo code (EUR) -</string>
+    <string name="view">View</string>
+    <string name="deliveryaddressissameasbillingaddress">The delivery address is the same as the billing address</string>
+    <string name="reviewtitle">Review Title</string>
+    <string name="titleofcomment">Title of the comment</string>
+    <string name="titleofoffer">Title of the offer</string>
+    <string name="review">Review</string>
+    <string name="reviewthisproduct">Review This Product</string>
+    <string name="comment">Comment</string>
+    <string name="continuefb">Continue with facebook</string>
+    <string name="bookby">Book by</string>
+    <string name="control">Control</string>
+    <string name="selectdate">Select Date</string>
+
+
+    <string name="ten">10</string>
+    <string name="continuegmail">Continue with Google</string>
+    <string name="username">Username</string>
+    <string name="login_to_continue">Login To Continue</string>
+    <string name="new_user">New User? Sign Up To Continue</string>
+    <string name="already_user">Already Registered? Login Here</string>
+    <string name="serach_garden">Search Garden</string>
+    <string name="search_city">Search City</string>
+    <string name="hide_unavaliable">Hide Unavailable</string>
+    <string name="earsefilter">Erase all filters</string>
+    <string name="filter">Filter</string>
+    <string name="hideunavailable">Hide Unavailable</string>
+    <string name="largeenvlop">Grand Envelopes </string>
+    <string name="smallenvlop">Small Envelopes </string>
+    <string name="serach_products_supplies">Search Products/Supplies</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+    <string name="skip">Skip</string>
+    <string name="searchproduct">Search Product</string>
+    <string name="offerno">Offer no</string>
+    <string name="offerupdatedsucessfully">Offer updated sucessfully</string>
+
+    <string name="typeofoffer">Type of offer</string>
+    <string name="submit">Submit</string>
+    <string name="particular">Particular</string>
+    <string name="toselect">To Select</string>
+
+    <string name="association">Association/Company</string>
+    <string name="pleasegiverating">Please give rating</string>
+    <string name="pleasegiveratingpunctuality">Please give rating Punctuality</string>
+    <string name="pleasegiveratingquanity">Please give rating Quality</string>
+    <string name="pleasegiveratingconfirmity">Please give rating Conformity</string>
+    <string name="continueshopping">Continue Shopping</string>
+    <string name="emptywishlist">Empty My Wish List</string>
+    <string name="pincode">Pincode</string>
+    <string name="fill_field">Please fill the field</string>
+    <string name="searchtext">Gardens around me</string>
+    <string name="searchtextproduct">Products</string>
+
+
+    <string name="list">List</string>
+    <string name="movetocart">Move to cart</string>
+    <string name="map">Map</string>
+    <string name="basket">Basket</string>
+    <string name="purchase">Purchases</string>
+    <string name="ok">Ok</string>
+    <string name="packingof">Packing Of</string>
+    <string name="remaining_stock">Remaining stock</string>
+    <string name="stock">Stock</string>
+    <string name="title_location_permission">Location Permission</string>
+    <string name="text_location_permission">Please Allow to access the location</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="weights">Weight</string>
+    <string name="umo">Umo</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="status">Status</string>
+    <string name="country">Country</string>
+    <string name="recipes">Recipes</string>
+    <string name="item">Item</string>
+    <string name="receipts">Receipts</string>
+    <string name="gardens">Gardens</string>
+    <string name="transfer">Transfer</string>
+    <string name="gardenaroundme">Garden around me</string>
+    <string name="picoreur_transformateur">Picoreur Transformer :</string>
+    <string name="send_message">Send a message</string>
+    <string name="min_price">Starting from €</string>
+    <string name="seeavailableproduct">See available products</string>
+    <string name="price">Price(€)</string>
+    <string name="shipping_costcurrency">Shipping Cost(€)</string>
+    <string name="remainng_items">Remaining</string>
+    <string name="additional_field">Additional Field</string>
+    <string name="sendmessage">Send message</string>
+    <string name="select_iam">Please select I Am field</string>
+    <string name="from">from</string>
+    <string name="donationaroundme">Donation around me</string>
+    <string name="From">From</string>
+    <string name="sendmsg">Send a message</string>
+    <string name="myoffer">My Offer</string>
+    <string name="mysale">My Sale</string>
+    <string name="sale">Sales</string>
+    <string name="balance">Balance</string>
+    <string name="bankname">Bank name</string>
+    <string name="institutionno">Institution number</string>
+    <string name="myinfo">My information</string>
+    <string name="transferwalletamount">Transfer wallet amount</string>
+    <string name="amounttotransfer">Amount to transfer</string>
+    <string name="chooseyourbankaccounttocreadit">Choose your bank account to credit</string>
+    <string name="balanceaftertransfer">Balance after transfer</string>
+    <string name="netamounttotransfer">Net Amount to transfer</string>
+    <string name="pendingamount">Pending amount</string>
+    <string name="transactioncostincvat">Transaction costs incl. VAT (2% + € 0.20)</string>
+    <string name="subscription">Subscription</string>
+    <string name="addtowishlist">Add to Wishlist</string>
+    <string name="addtobasket">Add to Basket</string>
+    <string name="mybooking">My Booking</string>
+    <string name="imagelimit">You cannot select more than 5 images.Please deselect another image before trying to select again.</string>
+    <string name="label">Label</string>
+    <string name="proceedfromdonation">Income From Donations</string>
+    <string name="managemyoffer">Manage My Offer</string>
+    <string name="productavailable">Product Available</string>
+    <string name="address_of_aniti">Adresse de L’AntiGaspi</string>
+    <string name="send_message_to_anti">Send a message to the antigasp</string>
+    <string name="product_name">Product name</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="add">ADD</string>
+    <string name="addanoffer">Add an offer</string>
+    <string name="totalamount">Total amount(€)</string>
+    <string name="name">Name</string>
+
+
+    <string name="select_combo">Select Combo</string>
+    <string name="delivery_or_collection">Delivery or Collection</string>
+    <string name="delivery">Delivery</string>
+    <string name="tobedeliver">To be delivered</string>
+    <string name="togetback">To get back</string>
+
+
+    <string name="editprofile">Edit Profile</string>
+    <string name="collect">Collect</string>
+
+    <string name="delivery_address">Delivery address</string>
+    <string name="change">Change</string>
+    <string name="collection_time">Collection time</string>
+    <string name="pick">Pick</string>
+    <string name="collection">Collection</string>
+    <string name="apply">Apply</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="add_promo_code">Enter Promo Code</string>
+    <string name="promocodereduction">Promo code reduction</string>
+    <string name="total_ttc">Total TTC</string>
+    <string name="category">Category</string>
+    <string name="subcategory">Sub Category</string>
+
+    <string name="type_d_s">Type</string>
+    <string name="lastname">Last Name</string>
+    <string name="access_spinner">Access</string>
+    <string name="status_spinner">Status</string>
+
+
+    <string name="type_d">Depott</string>
+    <string name="type_s">Seed Bank</string>
+
+    <string name="ime">IME</string>
+    <string name="pins">Pins</string>
+
+    <string name="public_spinner">Public</string>
+    <string name="private_spinner">Private</string>
+
+    <string name="available_spinner">Available</string>
+    <string name="unavailable_spinner">Unavailable</string>
+
+    <string name="ChoiceSeelibrary">Choice of deposit / Seed library</string>
+    <string name="reduction">Reduction</string>
+    <string name="shipping_cost">Shipping Cost</string>
+    <string name="description">Description</string>
+    <string name="DeposeBy">Depose By</string>
+    <string name="Variety">Variety</string>
+    <string name="treatedproducts">Enter here the products used</string>
+    <string name="set_delivery_location">Set Delivery Location</string>
+    <string name="location">Location</string>
+    <string name="locatedat">Located at</string>
+    <string name="check_address">Check Address</string>
+    <string name="don">DON</string>
+    <string name="cancel">Cancel</string>
+    <string name="permitmannually">Permit manully</string>
+
+    <string name="transferamountcannotbegreaterthanavailableamount">Le montant à transférer ne peut pas être supérieur au montant disponible.</string>
+
+    <string name="about">About</string>
+    <string name="whattypeoffarming">What type of farming do you use?</string>
+    <string name="note">Note: You can upload a maximum of 5 images / videos.</string>
+    <string name="aboutus">About Us</string>
+    <string name="aboutmeandgarden">About me and my garden</string>
+    <string name="vendorname">Vendor Name</string>
+    <string name="aboutthisproduct">About this product</string>
+    <string name="provinanceofproduct">Provenance of the product</string>
+    <string name="contactus">Contact us</string>
+    <string name="sugqncontactus">A suggestion,a question or you just want to talk about the project.Do not hesitate to contact us.</string>
+    <string name="home" tools:ignore="ExtraTranslation">Home</string>
+    <string name="profile">Profile</string>
+    <string name="my_messages">My Messages</string>
+    <string name="wishlist">My Wishlist</string>
+    <string name="phonenocontactus">Phone number: <b>066960474</b></string>
+    <string name="emailcontactus">E-Mail: <b>contact@fruiteefy.fr</b></string>
+    <string name="setting">Setting</string>
+    <string name="km">KM</string>
+    <string name="currentprice">Current Price</string>
+    <string name="currency">€</string>
+    <string name="clearthebasket">Clear the basket</string>
+    <string name="articleavailable">article (s) available</string>
+    <string name="opinionaboutreceipy">Your opinion about this recipe</string>
+    <string name="my_cart">My Cart</string>
+    <string name="my_order">My Order</string>
+    <string name="my_donation">My Donation</string>
+    <string name="client_i_want_to_buy">Buy</string>
+    <string name="picoreur">To sell</string>
+    <string name="orderno">Order number</string>
+    <string name="orderdate">Order Date</string>
+    <string name="total">Total</string>
+    <string name="balancesheet">Balancesheet</string>
+    <string name="invoice">Invoice</string>
+    <string name="amount">Amount</string>
+    <string name="transactiontype">Transaction type</string>
+    <string name="creation">Creation</string>
+    <string name="creationdate">Creation date</string>
+    <string name="transactionid">Transaction ID</string>
+    <string name="invoiceno">Invoice number</string>
+    <string name="order">Order</string>
+    <string name="orderby">Order by</string>
+    <string name="dateoforder">Date of the order</string>
+    <string name="totalno">Total order</string>
+    <string name="antigaspi">Give</string>
+    <string name="ordersummary">Order summary</string>
+    <string name="orderdetail">Order detail</string>
+    <string name="antigaspitips">Antigaspi Tips</string>
+    <string name="opiioninterestus">Your opinion interest us</string>
+    <string name="notification">My Notification</string>
+    <string name="loading">Loading. . .</string>
+    <string name="nonotification">No Notification</string>
+
+
+    <string name="logout">Logout</string>
+    <string name="for_pass">Forgot Password</string>
+    <string name="enter_reg_email">Enter your registered email id</string>
+    <string name="change_pass">Change Password</string>
+    <string name="new_pass">New Password</string>t
+    <string name="new_con_pass">Confirm New Password</string>
+    <string name="con_pass_error"> Password does not match</string>
+    <string name="share">Share</string>
+    <string name="typeofseller">Type of seller</string>
+    <string name="distancekm">Distance(km)</string>
+    <string name="waitingforvalidation">Waiting for validation</string>
+    <string name="canceled">Canceled</string>
+    <string name="delivered">Delivered</string>
+
+    <string name="mywallet">My Wallet</string>
+    <string name="servicecharge">Service charge</string>
+    <string name="sub_category">Sub-category</string>
+    <string name="treated_product">Treated Product</string>
+    <string name="i_do_not_know">I do not know</string>
+    <string name="registered">Registered</string>
+    <string name="collect_deliver">Collect / Deliver</string>
+    <string name="reservation">Reservation</string>
+
+    <string name="pleasesubscribetoaccessservice">Please Subscribe to access this service</string>
+    <string name="fruiteefyanualsubscrition">Fruiteefy annual subscription:10 €</string>
+    <string name="firstannuity">First annuity</string>
+
+
+    <string name="reserve">Reserve</string>
+    <string name="totalorder">Total order</string>
+    <string name="orderon">Order on</string>
+    <string name="inactive">Inactive</string>
+    <string name="activeseller">Active Seller</string>
+    <string name="mygift">Mes Gifts</string>
+    <string name="sellonly">Sell</string>
+    <string name="one">1</string>
+    <string name="mygarden">My Garden</string>
+    <string name="location_of_the_offer">The location of the offer</string>
+    <string name="search_for_location_here">Search for location here</string>
+    <string name="postal_code">Postal code</string>
+    <string name="date">Date</string>
+
+    <string name="updateoffer">Update offer</string>
+    <string name="productiondate">Production date</string>
+    <string name="bestbefore">Best before</string>
+    <string name="please_select_your_availabilities">Please select your availabilities</string>
+    <string name="pleaseselectavailabletime">Please select available time</string>
+
+    <string name="please_fill_in_your_availability_here_this_does_not_commit_you_to_anything">Please fill in your availability here (This does not commit you to anything)</string>
+    <string name="everyday">Everyday</string>
+    <string name="every_weekend">Every weekend</string>
+    <string name="availiable_later">Availiable later</string>
+    <string name="availiable_now">Availiable now</string>
+    <string name="specific_person">Do you want this offer to be collected by a specific person?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="personalinfo">Personal Information</string>
+    <string name="accountholder">Account Holder</string>
+    <string name="dateofbirth">Date of Birth</string>
+    <string name="billingaddr">Billing address</string>
+    <string name="myproduct">My Product</string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unvailable</string>
+    <string name="alert">Cette action rendra ce don indisponible</string>
+    <string name="payments">Payments</string>
+    <string name="edit">Edit</string>
+    <string name="paymentmethods">Payment Methods</string>
+    <string name="addanewcard">Add a new card</string>
+    <string name="transferoption">Transfer Options</string>
+    <string name="registeredaccount">Registered account</string>
+    <string name="addbankaccount">Add bank account</string>
+    <string name="amounttobereceived">Amount to be received</string>
+    <string name="amounttopay">Amount to pay</string>
+    <string name="balanceavailable">Balance available</string>
+    <string name="mypurchase">My Purchase</string>
+    <string name="addline">Add line</string>
+    <string name="enteravailabilitydate">Please enter Availabality date</string>
+
+
+    <string name="fillreceipysteps">Please fill in the recipe steps</string>
+    <string name="entermanufacringdte">Please fill in the manufacturing date</string>
+    <string name="add_a_photo_image">Add a photo/image</string>
+    <string name="addphotovideo">Add your image / photo or video</string>
+    <string name="descofrecepi">Description of the recipe</string>
+    <string name="paybycard">Pay by card</string>
+    <string name="addbestbeforedate">Please enter the date \'Consume preferably before\'</string>
+    <string name="productaddedocartsucess">The product has been added to your basket</string>
+    <string name="gotocart">Go to cart</string>
+    <string name="clearcart">Clear cart</string>
+    <string name="cannotaddproductfromdiffrentsuplier">You cannot add products from different suppliers to the basket.</string>
+    <string name="enterproductdesc">Please Enter Product Description.</string>
+    <string name="entervariety">Please enter variety</string>
+    <string name="selectofferetype">Please select offer type</string>
+    <string name="pleaseselctdeliveryinfo">Please select deliver Information</string>
+    <string name="selectcollectinfo">Please select Collect Information</string>
+    <string name="pleaseenterproductinfo">Please enter product information</string>
+
+    <string name="pleaseentercostofdelivery">Please enter cost for Delivery</string>
+
+
+    <string name="paybayalreadyaddedcard">Pay by already added card</string>
+    <string name="pleaseselectmodeofpayment">Please select mode of payment</string>
+    <string name="choose_file">Choose file</string>
+    <string name="validate">Validate</string>
+    <string name="searchdonation">Search Donation</string>
+    <string name="searchreceipy">Search Recipy</string>
+    <string name="icandeliver">I can deliver</string>
+    <string name="deliverycostperorder">Delivery cost per order (Max 15km from the point of sale)</string>
+    <string name="comeandcollect">Come and Collect</string>
+    <string name="offeraddedsucessfully">Offer added sucessfully</string>
+    <string name="moredetails">More detail</string>
+    <string name="noofferfound">No offer found</string>
+    <string name="title">Title</string>
+    <string name="Promotionalcode">Promotional code</string>
+    <string name="entercoupon">Enter coupon</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="pleaseckecksubmail">Thank you for your subscription! Check your mailbox for confirmation...</string>
+
+
+    <string-array name="collectnamearr">
+        <item>Select</item>
+        <item>To collect/pick up</item>
+        <item>To get back</item>
+        <item>I can deliver</item>
+    </string-array>
+
+    <string-array name="bankType">
+        <item>IBAN</item>
+        <item>GB</item>
+        <item>US</item>
+        <item>IT</item>
+        <item>OTHER</item>
+    </string-array>
+
+    <string-array name="Country">
+        <item>AD</item>
+        <item>AE</item>
+        <item>AF</item>
+        <item>AG</item>
+        <item>HAVE</item>
+        <item>AL</item>
+        <item>AM</item>
+        <item>YEAR</item>
+        <item>AO</item>
+        <item>QA</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>AT</item>
+        <item>AT</item>
+        <item>AW</item>
+        <item>AX</item>
+        <item>AZ</item>
+        <item>BA</item>
+        <item>BB</item>
+        <item>Comics</item>
+        <item>BE</item>
+        <item>BF</item>
+        <item>BG</item>
+        <item>BH</item>
+        <item>BI</item>
+        <item>BJ</item>
+        <item>BL</item>
+        <item>BM</item>
+        <item>BN</item>
+        <item>BO</item>
+        <item>BQ</item>
+        <item>BR</item>
+        <item>BS</item>
+        <item>BT</item>
+        <item>BV</item>
+        <item>BW</item>
+        <item>BY</item>
+        <item>BZ</item>
+        <item>IT</item>
+        <item>CC</item>
+        <item>CD</item>
+        <item>CF</item>
+        <item>CG</item>
+        <item>CH</item>
+        <item>THIS</item>
+        <item>CK</item>
+        <item>CL</item>
+        <item>CM</item>
+        <item>CN</item>
+        <item>CO</item>
+        <item>CR</item>
+        <item>CU</item>
+        <item>CV</item>
+        <item>CW</item>
+        <item>CX</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>OF</item>
+        <item>DJ</item>
+        <item>DK</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>DZ</item>
+        <item>EC</item>
+        <item>EE</item>
+        <item>EG</item>
+        <item>EH</item>
+        <item>ER</item>
+        <item>ES</item>
+        <item>AND</item>
+        <item>FI</item>
+        <item>FJ</item>
+        <item>FK</item>
+        <item>FM</item>
+        <item>FO</item>
+        <item>FR</item>
+        <item>GA</item>
+        <item>GB</item>
+        <item>GD</item>
+        <item>GE</item>
+        <item>GF</item>
+        <item>GG</item>
+        <item>GH</item>
+        <item>GI</item>
+        <item>GL</item>
+        <item>GM</item>
+        <item>GN</item>
+        <item>GP</item>
+        <item>GQ</item>
+        <item>GR</item>
+        <item>GS</item>
+        <item>GT</item>
+        <item>GU</item>
+        <item>GW</item>
+        <item>GY</item>
+        <item>HK</item>
+        <item>HM</item>
+        <item>HN</item>
+        <item>HR</item>
+        <item>HT</item>
+        <item>HU</item>
+        <item>ID</item>
+        <item>IE</item>
+        <item>HE</item>
+        <item>IM</item>
+        <item>IN</item>
+        <item>IO</item>
+        <item>IQ</item>
+        <item>IR</item>
+        <item>IS</item>
+        <item>IT</item>
+        <item>I</item>
+        <item>JM</item>
+        <item>OJ</item>
+        <item>JP</item>
+        <item>KE</item>
+        <item>KG</item>
+        <item>KH</item>
+        <item>KI</item>
+        <item>KM</item>
+        <item>KN</item>
+        <item>KP</item>
+        <item>KR</item>
+        <item>KW</item>
+        <item>KY</item>
+        <item>KZ</item>
+        <item>THE</item>
+        <item>LB</item>
+        <item>LC</item>
+        <item>LI</item>
+        <item>LK</item>
+        <item>LR</item>
+        <item>LS</item>
+        <item>LT</item>
+        <item>READ</item>
+        <item>LV</item>
+        <item>LY</item>
+        <item>MY</item>
+        <item>MC</item>
+        <item>MD</item>
+        <item>ME</item>
+        <item>MF</item>
+        <item>MG</item>
+        <item>MH</item>
+        <item>MK</item>
+        <item>ML</item>
+        <item>MM</item>
+        <item>MN</item>
+        <item>MO</item>
+        <item>MP</item>
+        <item>MQ</item>
+        <item>MR</item>
+        <item>MS</item>
+        <item>MT</item>
+        <item>MU</item>
+        <item>MV</item>
+        <item>MW</item>
+        <item>MX</item>
+        <item>MY</item>
+        <item>MZ</item>
+        <item>N / A</item>
+        <item>NC</item>
+        <item>BORN</item>
+        <item>NF</item>
+        <item>NG</item>
+        <item>OR</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>NP</item>
+        <item>NR</item>
+        <item>BARE</item>
+        <item>NZ</item>
+        <item>OM</item>
+        <item>PA</item>
+        <item>PE</item>
+        <item>PF</item>
+        <item>PG</item>
+        <item>PH</item>
+        <item>PK</item>
+        <item>PL</item>
+        <item>PM</item>
+        <item>PN</item>
+        <item>PR</item>
+        <item>PS</item>
+        <item>PT</item>
+        <item>PW</item>
+        <item>PY</item>
+        <item>QA</item>
+        <item>RE</item>
+        <item>RO</item>
+        <item>RS</item>
+        <item>UK</item>
+        <item>RW</item>
+        <item>HER</item>
+        <item>SB</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>SE</item>
+        <item>SG</item>
+        <item>SH</item>
+        <item>IF</item>
+        <item>SJ</item>
+        <item>SK</item>
+        <item>SL</item>
+        <item>SM</item>
+        <item>SN</item>
+        <item>SO</item>
+        <item>SR</item>
+        <item>SS</item>
+        <item>ST</item>
+        <item>SV</item>
+        <item>SX</item>
+        <item>SY</item>
+        <item>SZ</item>
+        <item>TC</item>
+        <item>TD</item>
+        <item>TF</item>
+        <item>TG</item>
+        <item>TH</item>
+        <item>TJ</item>
+        <item>TK</item>
+        <item>TL</item>
+        <item>TM</item>
+        <item>TN</item>
+        <item>TO</item>
+        <item>TR</item>
+        <item>TT</item>
+        <item>TV</item>
+        <item>TW</item>
+        <item>TZ</item>
+        <item>AU</item>
+        <item>U G</item>
+        <item>UM</item>
+        <item>US</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>GO</item>
+        <item>VC</item>
+        <item>VE</item>
+        <item>VG</item>
+        <item>VI</item>
+        <item>VN</item>
+        <item>Seen</item>
+        <item>WF</item>
+        <item>WS</item>
+        <item>YE</item>
+        <item>YT</item>
+        <item>ZA</item>
+        <item>ZM</item>
+        <item>ZW</item>
+
+    </string-array>
+
+
+    <string-array name="deposite">
+        <item>CHECKING</item>
+        <item>SAVING</item>
+    </string-array>
+
+
+    <string-array name="cardtype">
+
+        <item>CB_VISA_MASTERCARD</item>
+        <item>MAESTRO</item>
+        <item>BCMC</item>
+
+    </string-array>
+    <string-array name="unitofmeasures">
+        <item>Kg</item>-->
+        <item>g</item>
+        <item>cl</item>
+        <item>ml</item>
+        <item>Panier(s)</item>
+        <item>Lot(s)</item>
+        <item>Arbre(s)</item>
+        <item>Pièce(s)</item>
+        <item>Gagette(s)</item>
+        <item>Bouquet(s)</item>
+        <item>Plant(s)</item>
+        <item>Pied(s)</item>
+        <item>Unité(s)</item>
+
+    </string-array>
+    <!--    <string-array name="unitofmeasures">-->
+    <!--        <item>l</item>&ndash;&gt;-->
+    <!--        <item>cl</item>-->
+    <!--        <item>ml</item>-->
+    <!--        <item>Panier(s)</item>-->
+    <!--        <item>Lot(s)</item>-->
+    <!--        <item>Arbre(s)</item>-->
+    <!--        <item>Pièce(s)</item>-->
+    <!--        <item>Gagette(s)</item>-->
+    <!--        <item>Bouquet(s)</item>-->
+    <!--        <item>Plant(s)</item>-->
+    <!--        <item>Pied(s)</item>-->
+    <!--        <item>Unité(s)</item>-->
+
+    <!--    </string-array>-->
+    <string-array name="unitofmeasure">
+
+        <item>@string/smallenvlop</item>
+        <item>@string/largeenvlop</item>
+        <!--        <item>l</item>-->
+        <!--        <item>cl</item>-->
+        <!--        <item>ml</item>-->
+        <!--        <item>Panier(s)</item>-->
+        <!--        <item>Lot(s)</item>-->
+        <!--        <item>Arbre(s)</item>-->
+        <!--        <item>Pièce(s)</item>-->
+        <!--        <item>Gagette(s)</item>-->
+        <!--        <item>Bouquet(s)</item>-->
+        <!--        <item>Plant(s)</item>-->
+        <!--        <item>Pied(s)</item>-->
+        <!--        <item>Unité(s)</item>-->
+
+    </string-array>
+
+    <string-array name="availability">
+
+        <item>Select</item>
+        <item>Please fill in your availability here (This does not commit you to anything)</item>
+        <item>Available now</item>
+
+    </string-array>
+
+
+    <string-array name="timespinner">
+
+        <item>Select</item>
+        <item>+30 Minute</item>
+        <item>+1 hour</item>
+        <item>+2 hour</item>
+
+    </string-array>
+
+    <string-array name="timeSpinnerAvailable">
+
+        <item>Select</item>
+        <item>7h-9h</item>
+        <item>9h-12h</item>
+        <item>12h-14h</item>
+        <item>14h-17h</item>
+        <item>17h-19h</item>
+        <item>19h-21h</item>
+        <item>Toute la journée</item>
+
+    </string-array>
+
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="modify">Modify</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="storage_permission">Fruiteefy needs permission to Storage for performing this action.To enable tap on Settings and provide storage permission</string>
+    <string name="camera_permission">Fruiteefy needs permission to Camera for clicking picture(s).To enable tap on Settings and provide camera permission</string>
+    <string name="permitmanually">SETTINGS</string>
+    <string name="choosevideo">Choose Video</string>
+
+    <string-array name="tempArr">
+
+        <item>Km</item>
+        <item>Cm</item>
+        <item>Mile</item>
+        <item>Foot</item>
+        <item>Meter</item>
+        <item>Inch</item>
+
+    </string-array>
+
+    <string name="update">Update</string>
+    <string name="str_edt_weighthint"><font size="12">Enter Weight</font></string>
+    <string name="str_edt_pricehint"><font size="12">Enter price</font></string>
+    <string name="stredt_amount"><font size="12">Enter Amount</font></string>
+    <string name="str_edt_availablenumberhint"><font size="12">Enter number available</font></string>
+    <string name="str_enteringredient"><font size="12">Enter ingredients</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

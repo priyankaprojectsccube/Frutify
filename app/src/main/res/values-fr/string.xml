@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Fruiteefy</string>
+    <string name="sign_up">je cree mon compte</string>
+    <string name="company_name">Nom de votre entreprise</string>
+    <string name="full_name">Nom Complet</string>
+    <string name="iam">Je suis</string>
+    <string name="fname">Prénom</string>
+    <string name="lname">Nom</string>
+    <string name="descofrecepi">Description de la recette</string>
+    <string name="addphotovideo">Ajoutez votre image / photo ou vidéo</string>
+    <string name="productiondate">Date de production</string>
+    <string name="type">Type</string>
+    <string name="date">Date</string>
+    <string name="RelatedToOffers">Related To Offers</string>
+    <string name="DeposeBy">Depose By</string>
+    <string name="RelatedToAddress">Related To Address</string>
+    <string name="availbletxt">If you did not find this donation or if you have recovered it, please notify it here:</string>
+    <string name="choosevideo">Sélectionnez la vidéo</string>
+    <string name="permitmannually">Autoriser Manuellement</string>
+    <string name="cancel">Annuler</string>
+    <string name="bestbefore">À consommer de préférence avant</string>
+    <string name="updateoffer">offre de mise à jour</string>
+    <string name="deliverycostperorder">Coût de livraison par commande(Max 15km du lieu de vente)</string>
+    <string name="comeandcollect">A venir récupérer</string>
+    <string name="icandeliver">Je peux livrer</string>
+    <string name="pleaseselectcardforpyment">Veuillez sélectionner la carte pour le paiement</string>
+    <string name="nomatchingresult">Aucun résultat correspondant trouvé</string>
+    <string name="addline">Ajouter une ligne</string>
+    <string name="offerupdatedsucessfully">Offre mise à jour avec succès</string>
+    <string name="willbedeductedfromyourwalllet"> Sera déduit de votre portefeuille</string>
+    <string name="willbedeductedfrombankaccout">Sera déduit de votre compte bancaire</string>
+    <string name="ownersaddrline1">Adresse du propriétaire (ligne 1)</string>
+    <string name="ownersaddrline2">Adresse du propriétaire (ligne 2)</string>
+    <string name="settingcode">Code de tri</string>
+    <string name="selectyouravailability">Merci de sélectionner vos disponibilités</string>
+    <string name="pleaseselectavailabletime">Veuillez sélectionner le temps disponible</string>
+    <string name="waitingforvalidation">En attente de validation</string>
+    <string name="canceled">Annulé</string>
+    <string name="delivered">Livré</string>
+
+    <string name="branchcode">Code de succursale</string>
+    <string name="typeofdepositaccount">Type de compte de dépôt</string>
+    <string name="accountno">Numéro de compte</string>
+    <string name="expiry">Expiration</string>
+    <string name="cvv">CVV</string>
+    <string name="cardaddedsucessfully">Carte ajoutée avec succès</string>
+    <string name="cardnotaddedsucessfully">Carte non ajoutée</string>
+    <string name="cardno">Numéro de carte</string>
+    <string name="cardtype">Type de carte</string>
+    <string name="home" tools:ignore="ExtraTranslation">Accueil</string>
+    <string name="email_id">E-Mail</string>
+    <string name="delivercost">Frais de livraison:</string>
+    <string name="collectiondeliverydate">Date de collecte/livraison</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="entermsg">Ecrire votre message</string>
+    <string name="address">Adresse</string>
+    <string name="password">Mot de passe</string>
+    <string name="transferamountcannotbegreaterthanavailableamount">Le montant à transférer ne peut pas être supérieur au montant disponible.</string>
+    <string name="authentication_dialog_title">Merci de vous enregistrer</string>
+    <string name="typemessage">Ecrire votre message</string>
+    <string name="products">Produit(s)</string>
+    <string name="seethegarden">Voir le Jardin</string>
+    <string name="email">E-Mail</string>
+    <string name="delete">Supprimer</string>
+    <string name="seen">Vu</string>
+    <string name="confirm_password">Confirmation du mot de passe</string>
+    <string name="quality">Qualité</string>
+    <string name="quantity">Quantité</string>
+    <string name="ratethisreceipy">Noter cette recette</string>
+    <string name="ratethisproduct">Noter ce produit</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="whattypeoffarming">Type d\'agriculture ou de type de Jardin</string>
+    <string name="add_a_photo_image">Ajouter une photo/image</string>
+    <string name="choose_file">Choisir un fichier</string>
+    <string name="note">Note :Vous pouvez télécharger un maximum de 5 images / vidéos..</string>
+    <string name="aboutmeandgarden">A propos de moi et de mon jardin</string>
+    <string name="validate">Valider</string>
+    <string name="searchdonation">Rechercher dons</string>
+    <string name="searchreceipy">Rechercher recettes</string>
+    <string name="Promotionalcode">Code promotionnel</string>
+    <string name="subscribe">Souscrire</string>
+    <string name="entercoupon">Entrez le coupon</string>
+    <string name="pleaseckecksubmail">Merci pour votre souscription! Vérifier votre boîte mail pour la confirmation...</string>
+    <string name="creationdate">Date de création</string>
+    <string name="sellonly">Vendre</string>
+    <string name="mygift">Mes Dons</string>
+    <string name="edit">Éditer</string>
+    <string name="firstannuity">Première annuité</string>
+    <string name="fruiteefyanualsubscrition">Fruiteefy abonnement annuel:10 €</string>
+    <string name="pleasesubscribetoaccessservice">Merci de souscrire pour accéder à ce service</string>
+    <string name="balancesheet">Bilans</string>
+    <string name="invoice">Factures</string>
+    <string name="transactionid">Identification de transaction</string>
+    <string name="creation">Création</string>
+    <string name="transactiontype">Type de transaction</string>
+    <string name="Ofthemonth">Du mois:</string>
+    <string name="monthly">Au mois:</string>
+    <string name="location_of_the_offer">La localisation de l\'offre</string>
+    <string name="postal_code">Code postale</string>
+    <string name="please_select_your_availabilities">Merci de sélectionner vos diponibilités</string>
+    <string name="please_fill_in_your_availability_here_this_does_not_commit_you_to_anything">Merci de renseigner vos disponibilités ici (Cela  ne vous engage à rien)</string>
+    <string name="everyday">Tous les jours</string>
+    <string name="every_weekend">Chaque weekend</string>
+    <string name="availiable_later">Disponibles plus tard</string>
+    <string name="availiable_now">Disponibles maintenat</string>
+    <string name="available">Disponible</string>
+    <string name="unavailable">Unvailable</string>
+    <string name="alert">Cette action rendra ce don indisponible</string>
+    <string name="specific_person">Voulez vous que cette offre soit collectée par une personne en prticulier</string>
+    <string name="punctuality">Ponctualité</string>
+    <string name="Conformity">Conformité</string>
+    <string name="quantitysold">Quantités vendues</string>
+    <string name="quantityavailable">Nombre Disponibles</string>
+    <string name="unit">Unité</string>
+    <string name="ChoiceSeelibrary">Choix dépôt/Graineothèque</string>
+    <string name="unitofmeasure">Unité de Mesure</string>
+    <string name="enterunitofmeasure">Unité de Mesure</string>
+    <string name="enteryouravailability">Merci de renseigner vos disponibilités ici (Cela ne vous engage à rien)</string>
+    <string name="give">Donner/Echanger</string>
+    <string name="enterproductdesc">Merci de renseigner la description</string>
+    <string name="entervariety">Please enter variety</string>
+    <string name="selectofferetype">Please select offer type</string>
+    <string name="enterproductname">Merci de renseigner le nom du produit</string>
+    <string name="sell">Vendre</string>
+    <string name="command">Commandes</string>
+    <string name="select">Sélectionner</string>
+<!--    offertype-->
+    <string name="sell_ot">Vendre</string>
+    <string name="sell_ep_ot">Vendre(echange Possible)</string>
+    <string name="give_ot">Donner</string>
+    <string name="toexchange_ot">Echanger</string>
+    <string name="search_ot">Chercher</string>
+     <string name="select_offer_type">Offer Type</string>
+
+    <string name="addacommenet">Ajouter un commentaire</string>
+    <string name="addtomygarden">Ajouter à mon Jardin</string>
+    <string name="selectcat">Sélectionner une catégorie</string>
+    <string name="selectsubcat">Sélectionner une sous-catégorie</string>
+    <string name="enterdeliverymethod">Type de livraison</string>
+    <string name="opinioncommentry">Avis/Commentaires</string>
+    <string name="bookfortwoeuro">Réserver pour 2€</string>
+    <string name="productsavailable">Produits disponibles</string>
+    <string name="amount">Montant</string>
+    <string name="availablequantity">Quantités disponibles</string>
+    <string name="sendamsg">Envoyer un message</string>
+    <string name="passnotmatch">Les mots de passe ne correspondent pas. </string>
+    <string name="email_error">E-Mail non valide</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="or">ou</string>
+    <string name="pass_error">Mot de passe doit être de 6 caractère au</string>
+    <string name="register">JE CRÉE MON COMPTE</string>
+    <string name="loginreg">S\'identifier/S\'inscrire</string>
+    <string name="login">S\'identifier</string>
+    <string name="view">Voir</string>
+    <string name="nonotification">Pas de notification</string>
+    <string name="reviewtitle">Revoir le titre</string>
+    <string name="titleofcomment">Titre de l\'avis</string>
+    <string name="titleofoffer">Titre de l\'offre</string>
+    <string name="review">Revoir</string>
+    <string name="reviewthisproduct">Revoir ce produit</string>
+    <string name="comment">Commentaires</string>
+    <string name="continuefb">S\'identifier avec facebook</string>
+    <string name="bookby">Réserver par</string>
+    <string name="continuegmail">S\'identifier avec google</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="login_to_continue">Merci de vous identifier d\'abord</string>
+    <string name="new_user">Nouvel utilisateur? S\'enregistrer ici</string>
+    <string name="ingredients">Ingrédients</string>
+    <string name="weights">Quantité</string>
+    <string name="umo">Unité de mesure</string>
+    <string name="city">Ville</string>
+    <string name="state">Région</string>
+    <string name="status">Statut</string>
+    <string name="country">Pays</string>
+    <string name="recipes">Recettes</string>
+    <string name="receipts">Reçus</string>
+    <string name="gardens">Jardins</string>
+    <string name="searchtextproduct">Produits</string>
+    <string name="gardenaroundme">Jardins autour de moi</string>
+    <string name="picoreur_transformateur">Jardins autour de moi</string>
+    <string name="send_message">Envoyer un message</string>
+    <string name="min_price">A partir de €</string>
+    <string name="seeavailableproduct">Voir les produits disponibles</string>
+    <string name="price">Prix</string>
+    <string name="shipping_costcurrency">Coût de livraison par commande</string>
+    <string name="remainng_items">Quantités restantes </string>
+    <string name="sendmsg">Envoyer un message</string>
+    <string name="myoffer">Mes offres</string>
+    <string name="mysale">Mes ventes</string>
+    <string name="sale">ventes</string>
+    <string name="proceedfromdonation">Produits issus des dons</string>
+    <string name="mywallet">Mon Porte-Monnaie</string>
+    <string name="subscription">Souscription</string>
+    <string name="mybooking">Mes réservations</string>
+    <string name="managemyoffer">Gérer mes offres</string>
+    <string name="productavailable">Produits disponibles</string>
+    <string name="address_of_aniti">Adresse du donateur</string>
+    <string name="send_message_to_anti">Envoyer un message</string>
+    <string name="product_name">Nom du produit</string>
+    <string name="product_detail">Détails du produits</string>
+    <string name="add">Ajouter</string>
+    <string name="addanoffer">Ajouter une offre</string>
+    <string name="totalamount">Montant total (€)</string>
+    <string name="balance">Solde</string>
+    <string name="personalinfo">Informations personnelles</string>
+    <string name="accountholder">Titulaire de compte</string>
+    <string name="dateofbirth">Date de naissance</string>
+    <string name="billingaddr">Adresse de facturation</string>
+    <string name="bankname">Nom de banque</string>
+    <string name="label">Étiquette</string>
+    <string name="institutionno">Numéro d\'institution</string>
+    <string name="transferwalletamount">Montant du portefeuille de transfert</string>
+    <string name="amounttotransfer">Montant à transférer</string>
+    <string name="chooseyourbankaccounttocreadit">Choisissez votre compte bancaire à créditer</string>
+    <string name="balanceaftertransfer">Solde après transfert</string>
+    <string name="netamounttotransfer">Montant net à transférer</string>
+    <string name="pendingamount">Montant en attente</string>
+    <string name="transactioncostincvat">Frais de transaction TTC (2% + € 0.20)</string>
+    <string name="addtowishlist">Ajouter à ma liste </string>
+    <string name="addtobasket">Ajouter au panier</string>
+    <string name="payments">Paiements</string>
+    <string name="paymentmethods">Méthodes de Payement</string>
+    <string name="addanewcard">Ajouter une nouvelle carte</string>
+    <string name="transferoption">Options de transfert</string>
+    <string name="registeredaccount">Compte enregistré</string>
+    <string name="addbankaccount">Ajouter un compte bancaire</string>
+    <string name="amounttobereceived">Montant à recevoir</string>
+    <string name="amounttopay">Montant à payer</string>
+    <string name="balanceavailable">Solde disponible</string>
+    <string name="mypurchase">Mes achats</string>
+    <string name="transfer">Transférer</string>
+    <string name="myinfo">Mes information</string>
+    <string name="name">Nom</string>
+    <string name="select_combo">Sélectionner</string>
+    <string name="delivery_or_collection">Livraison ou Collecte</string>
+    <string name="delivery">Livraison</string>
+    <string name="tobedeliver">A Livrer</string>
+    <string name="editprofile">Mettre à jour mon Profil</string>
+    <string name="collect">Collecter</string>
+    <string name="delivery_address">Adresse de livraison</string>
+    <string name="change">Changer</string>
+    <string name="collection_time">Heure de Livraison</string>
+    <string name="pick">A Cueillir</string>
+    <string name="collection">A récupérer</string>
+    <string name="apply">Appliquer</string>
+    <string name="additional_field">Ajouter une ligne</string>
+    <string name="sendmessage">Envoyer un message</string>
+    <string name="select_iam">Type de vendeur</string>
+    <string name="from">de</string>
+    <string name="donationaroundme">Les offres autour</string>
+    <string name="subtotal">Sous-total</string>
+    <string name="emailidoptional">Email ID(Facultatif)</string>
+    <string name="region">Région</string>
+    <string name="add_promo_code">Codes promotionnels</string>
+    <string name="promocodereduction">Réduction code promo</string>
+    <string name="total_ttc">Total</string>
+    <string name="category">Catégorie</string>
+    <string name="discountpromocode">Réduction code promo (EUR)-</string>
+    <string name="deliveryaddressissameasbillingaddress">L\'adresse de livraison est la même que l\'adresse de facturation</string>
+    <string name="subcategory">Sous-catégorie</string>
+
+    <string name="type_d_s">Type</string>
+    <string name="lastname">Nom</string>
+    <string name="access_spinner">Acces</string>
+    <string name="status_spinner">Status</string>
+
+    <string name="type_d">Depott</string>
+    <string name="type_s">Graineothequee</string>
+
+    <string name="ime">IME</string>
+    <string name="pins">Pins</string>
+
+    <string name="public_spinner">Public</string>
+    <string name="private_spinner">Private</string>
+
+    <string name="available_spinner">Available</string>
+    <string name="unavailable_spinner">Unavailable</string>
+
+    <string name="reduction">Réduction</string>
+    <string name="shipping_cost">Frais de Livraison</string>
+    <string name="description">La description</string>
+    <string name="Variety">Variété</string>
+    <string name="treatedproducts">Ingrédients</string>
+    <string name="set_delivery_location">La localisation de l\'offre</string>
+    <string name="location">Indiquez le lieu</string>
+    <string name="locatedat">situé à</string>
+    <string name="check_address">Vérifier adresse</string>
+    <string name="don">Dons</string>
+    <string name="about">A propos</string>
+    <string name="aboutus">A propos</string>
+    <string name="aboutthisproduct">A propos du produit</string>
+    <string name="provinanceofproduct">La localisation de l\'offre</string>
+    <string name="contactus">Nous contacter</string>
+    <string name="sugqncontactus">Une suggestion, une question ou vous voulez tout simplement parler du projet. N\'hésitez pas à nous contacter</string>
+    <string name="Accueil" tools:ignore="ExtraTranslation">Home</string>
+    <string name="profile">Profil</string>
+    <string name="my_messages">Mes messages</string>
+    <string name="wishlist">Ma liste d\'envies</string>
+    <string name="phonenocontactus">Numéro de téléphoner: <b>066960474</b></string>
+    <string name="emailcontactus">E-mail: <b>contact@fruiteefy.fr</b></string>
+    <string name="setting">Paramètres</string>
+    <string name="km">Km</string>
+    <string name="cannotaddproductfromdiffrentsuplier">Vous ne pouvez pas ajouter dans le panier des produits de differents fournisseurs.</string>
+
+    <string name="clearcart">Vider le panier</string>
+    <string name="currentprice">Prix</string>
+    <string name="currency">€</string>
+    <string name="clearthebasket">Vider le Panier</string>
+    <string name="articleavailable">Articles disponibles</string>
+    <string name="opinionaboutreceipy">Notez cette recette</string>
+    <string name="my_cart">Mon panier</string>
+    <string name="my_order">Mes ventes</string>
+    <string name="my_donation">Mes dons</string>
+    <string name="client_i_want_to_buy">Acheter</string>
+    <string name="picoreur">Vendre</string>
+    <string name="orderno">Numéro de commande</string>
+    <string name="orderdate">Date de la commande</string>
+    <string name="total">Total</string>
+    <string name="modify">Modifier</string>
+    <string name="invoiceno">Numéro de la facture</string>
+    <string name="order">Commande</string>
+    <string name="orderby">Commander par</string>
+    <string name="dateoforder">Date de la commande</string>
+    <string name="totalno">Total</string>
+    <string name="gotocart">Aller au panier</string>
+    <string name="productaddedocartsucess">Le produit a été ajouté à votre panier</string>
+    <string name="antigaspi">Donner/Echanger</string>
+    <string name="ordersummary">Résumé de la commande</string>
+    <string name="orderdetail">Détails de la commande</string>
+    <string name="antigaspitips">Astuces antigaspi</string>
+    <string name="opiioninterestus">Votre opinion nous intéresse</string>
+    <string name="notification">Mes notifications</string>
+    <string name="loading">Chargement</string>
+    <string name="enterrecipyimage">Merci d\'insérer une photo/image/videos pour la recette</string>
+
+    <string name="pleaseselctdeliveryinfo">Veuillez sélectionner livrer les informations</string>
+    <string name="logout">Déconnexion</string>
+    <string name="enteravailabilitydate">Veuillez saisir la date de disponibilité</string>
+    <string name="fillreceipysteps">Merci de renseigner les étapes de la recette</string>
+    <string name="addbestbeforedate">Merci de renseigner la date \'A consommer de préférence avant\'</string>
+    <string name="entermanufacringdte">Merci de renseigner la date de fabrication</string>
+    <string name="selectcollectinfo">Veuillez sélectionner Collect Information</string>
+    <string name="for_pass">Mot de passe oublié?</string>
+    <string name="pleaseentercostofdelivery">Veuillez saisir le coût de livraison</string>
+    <string name="pleaseenterproductinfo">Veuillez saisir des informations sur le produit</string>
+    <string name="enter_reg_email">E-Mail</string>
+    <string name="change_pass">Changer de mot de passe</string>
+    <string name="new_pass">Nouveau mot de passe</string>
+    <string name="new_con_pass">Confirmer votre mot de passe</string>
+    <string name="con_pass_error">Vos mot de passe ne correspondent pas</string>
+    <string name="share">Partager</string>
+    <string name="distancekm">Distance (Km)</string>
+    <string name="servicecharge">Frais de service</string>
+    <string name="sub_category">Sous-catégorie</string>
+    <string name="treated_product">Produits traités?</string>
+    <string name="i_do_not_know">Je ne sais pas</string>
+    <string name="registered">Enregistrer</string>
+    <string name="collect_deliver">Livraison/Collecte</string>
+    <string name="reservation">Réservation</string>
+    <string name="searchtext">Jardins autour de moi</string>
+    <string name="reserve">Réservé</string>
+    <string name="totalorder">Total</string>
+    <string name="orderon">Commander le</string>
+    <string name="inactive">Inactif</string>
+    <string name="one">1</string>
+    <string name="title_location_permission">Autorisation de localisation</string>
+    <string name="text_location_permission">Veuillez autoriser l\'accès à l\'emplacement</string>
+    <string name="already_user">Déjà enregistré? Connectez-vous ici</string>
+    <string name="mygarden">Mon Jardin</string>
+    <string name="serach_garden">Rechercher un jardin</string>
+    <string name="search_city">Ville</string>
+    <string name="hide_unavaliable">Hide Unavailable</string>
+    <string name="earsefilter">Erase all filters</string>
+    <string name="filter">Filter</string>
+    <string name="hideunavailable">Hide Unavailable</string>
+    <string name="largeenvlop">Grande(s) Enveloppe(s)</string>
+    <string name="smallenvlop">Petite(s) Enveloppe(s)</string>
+    <string name="serach_products_supplies">Rechercher un produit</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Close</string>
+    <string name="skip">Passer</string>
+    <string name="searchproduct">Rechercher un produit</string>
+    <string name="offerno">Numéro de l\'offre</string>
+    <string name="typeofoffer">Type d\'offre</string>
+    <string name="submit">Valider</string>
+    <string name="particular">Particulier</string>
+    <string name="toselect">A sélectionner</string>
+    <string name="association">Professionnel/Producteur</string>
+    <string name="pleasegiverating">Merci de noter</string>
+    <string name="pleasegiveratingpunctuality">Merci de noter la ponctualité</string>
+    <string name="pleasegiveratingquanity">Merci de noter la qualité</string>
+    <string name="pleasegiveratingconfirmity">Merci de noter la conformité</string>
+    <string name="continueshopping">Continuer mes achats</string>
+    <string name="emptywishlist">Vider ma liste d\'envies</string>
+    <string name="pincode">Mot de passe</string>
+    <string name="fill_field">Merci de renseigner ce champs</string>
+    <string name="list">Liste</string>
+    <string name="pleaseselectmodeofpayment">Veuillez sélectionner le mode de paiement</string>
+    <string name="paybayalreadyaddedcard">Payer par carte déjà ajoutée</string>
+    <string name="title">Titre</string>
+    <string name="paybycard">Payer pr Carte</string>
+    <string name="exchange">Echanger</string>
+    <string name="movetocart">Ajouter au panier</string>
+    <string name="map">Plan</string>
+    <string name="item">liste</string>
+    <string name="activeseller">Vendeur Actif</string>
+    <string name="basket">Panier</string>
+    <string name="purchase">Achats</string>
+    <string name="ok">Valider</string>
+    <string name="update">Mettre à jour</string>
+    <string name="packingof">Poids/Volume</string>
+    <string name="remaining_stock">Quantités restantes </string>
+    <string name="stock">Nombre disponibles</string>
+    <string name="vendorname">Nom du vendeur</string>
+    <string name="typeofseller">Type de vendeur</string>
+    <string name="myproduct">Mes produits </string>
+    <string name="From">De</string>
+    <string name="noofferfound">Aucune offre trouvée</string>
+    <string name="moredetails">Plus de détails</string>
+    <string name="control">Contrôle</string>
+    <string name="offeraddedsucessfully">Offre ajoutée avec succès</string>
+    <string name="storage_permission">Fruiteefy a besoin d\'une autorisation de stockage pour effectuer cette action. Pour activer, appuyez sur Paramètres et fournissez une autorisation de stockage</string>
+    <string name="camera_permission">Fruiteefy a besoin de l\'autorisation de l\'appareil photo pour cliquer sur les images. Pour activer appuyez sur Paramètres et accordez l\'autorisation de l\'appareil photo</string>
+    <string name="permitmanually">RÉGLAGES</string>
+    <string name="pleaseinformifproductaretreatedornot">Merci de renseigner si les produits sont traités ou pas</string>
+    <string name="selectdate">Sélectionner une date</string>
+
+    <string name="str_edt_weighthint"><font size="8">Ex : Entrez 2 pour 2kg (si kg au dessus)</font></string>
+    <string name="str_edt_pricehint"><font size="8">Ex :Entrez 3.50 (Si 3.50€ pour 2kg)</font></string>
+    <string name="stredt_amount"><font size="8">Ex :Entrez 10 (Si 10 fois 2kg disponibles)</font></string>
+    <string name="togetback">Pour revenir</string>
+    <string name="str_edt_availablenumberhint"><font size="12">Entrez le nombre disponible</font></string>
+<!--    Entrez les ingrédients-->
+    <string name="str_enteringredient"><font size="12">Ex : Entrez 100 pour 100g si g ci-dessous”</font></string>
+    <string name="search_for_location_here">Recherchez l\'emplacement ici</string>
+    <string name="lbl_take_camera_picture">Prendre une photo</string>
+    <string name="lbl_choose_from_gallery">Choisir depuis la galerie</string>
+
+
+    <string-array name="timespinner">
+
+        <item>Sélectionner</item>
+        <item>+30 Minutes</item>
+        <item>+1 Heure</item>
+        <item>+2 Heure</item>
+
+    </string-array>
+
+    <string-array name="collectnamearr">
+        <item>Sélectionner</item>
+        <item>A récupérer/cueillir</item>
+        <item>A récupérer</item>
+        <item>Je peux livrer</item>
+    </string-array>
+
+    <string-array name="timeSpinnerAvailable">
+
+        <item>Sélectionner</item>
+        <item>7 am-9 am</item>
+        <item>9 am-12 pm</item>
+        <item>12 pm-2 pm</item>
+        <item>2 pm-5 pm</item>
+        <item>5 pm-7 pm</item>
+        <item>7 pm-9 pm</item>
+        <item>Toute la journée</item>
+
+    </string-array>
+
+    <string-array name="availability">
+        <item>Sélectionner</item>
+        <item>Merci de renseigner vos disponibilités ici (Cela  ne vous engage à rien)</item>
+        <item>Disponible dès maintenant</item>
+    </string-array>
+
+</resources>

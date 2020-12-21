@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        android:id="@+id/nav_offer"
+        android:checked="true"
+        android:icon="@drawable/ic_list"
+        android:title="@string/myoffer"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_add"
+        android:checked="true"
+        android:icon="@drawable/plus"
+        android:title="@string/addanoffer"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_purchase"
+        android:checked="true"
+        android:icon="@drawable/ic_purchase"
+        android:title="@string/my_order"
+        app:showAsAction="ifRoom" />
+
+
+    <!--    <item-->
+<!--        android:id="@+id/nav_purchase"-->
+<!--        android:checked="true"-->
+<!--        android:icon="@drawable/ic_purchase"-->
+<!--        android:title="My Bookings"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/nav_map"-->
+<!--        android:checked="true"-->
+<!--        android:icon="@drawable/plus"-->
+<!--        android:title="Add an offer"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+
+    <item
+        android:visible="false"
+        android:id="@+id/nav_donationaroundme"
+        android:checked="true"
+        android:icon="@drawable/ic_purchase"
+        android:title="@string/donationaroundme"
+        app:showAsAction="ifRoom" />
+
+    <item
+     android:visible="false"
+        android:id="@+id/nav_my_booking"
+        android:checked="true"
+        android:icon="@drawable/ic_purchase"
+        android:title="@string/mybooking"
+        app:showAsAction="ifRoom" />
+
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_garden"-->
+<!--        android:checked="true"-->
+<!--        android:icon="@drawable/tree"-->
+<!--        android:title="My Garden"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+</menu>

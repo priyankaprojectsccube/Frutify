@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".user_client.home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/linlayanti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_anchorGravity="bottom|right|end">
+
+
+        <TextView
+            android:id="@+id/addanoffer"
+            android:visibility="gone"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="@string/addanoffer"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/managemyoffer"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="@string/managemyoffer"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            />
+
+
+        <TextView
+            android:id="@+id/myorders"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="@string/my_order"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_all_products"
+        android:layout_below="@+id/linlayanti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+
+    <TextView
+        android:id="@+id/textpicomyoffer"
+        android:visibility="gone"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/rv_all_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="N’hésitez pas à ajouter une offre pour vendre vos surplus (fruits et légumes de votre jardin, fleurs comestibles, plantes aromatiques, bocaux fait maison, etc….). Les membres de notre site pourront réserver votre offre et prendre contact avec vous à travers la messagerie interne. Pour le bon fonctionnement du site, merci de renseigner tous les champs disponibles et d’ajouter au moins une photo de ce que vous vendez."/>
+</RelativeLayout>

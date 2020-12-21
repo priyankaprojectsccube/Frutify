@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300338051700",
+    "firebase_url": "https://fruiteefy-b6204.firebaseio.com",
+    "project_id": "fruiteefy-b6204",
+    "storage_bucket": "fruiteefy-b6204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300338051700:android:4a0a97a022ee1251dd6f21",
+        "android_client_info": {
+          "package_name": "com.app.fr.fruiteefy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300338051700-4q59mjb40nii52vqab0av18q9draanc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsLC9RRQmzsDCafSammxbHJ4ZBkJI1u_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300338051700-4q59mjb40nii52vqab0av18q9draanc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

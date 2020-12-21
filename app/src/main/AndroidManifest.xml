@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.fr.fruiteefy">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/frutilogo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/frutilogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity android:name=".user_client.home.LargeView"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".user_client.home.VideoviewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_client.home.WebViewNotification" />
+        <activity android:name=".SetBankAccounttype" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".user_client.Login.LoginView.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <service
+            android:name=".Util.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".user_client.mywallet.InvoiceDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user_client.home.RecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_client.home.PaymentCartActivity" />
+        <activity
+            android:name=".user_client.mywallet.WalletActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_client.PaymentActivity" />
+        <activity
+            android:name=".user_client.mywallet.AddCardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_client.CliantChatActivity" />
+        <activity android:name=".user_client.Subscription.SubscriptionActivity" />
+        <activity
+            android:name=".Chat.MessageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Chat.ChatActivity" />
+        <activity android:name=".user_antigaspi.fragment.MyGardenActivity" />
+        <activity android:name=".user_client.NotificationcliantActivity" />
+        <activity android:name=".user_antigaspi.NotificationAntigaspiActivity" />
+        <activity android:name=".user_picorear.NotificationPicorearActivity" />
+        <activity android:name=".user_antigaspi.AntiAddofferActivity" />
+        <activity android:name=".user_picorear.PicoMySaleActivity" />
+        <activity android:name=".user_picorear.PicoOfferDetailActivity" />
+        <activity android:name=".user_antigaspi.ManageofferActivity" />
+        <activity android:name=".user_antigaspi.AntiProductDetailsActivity" />
+        <activity android:name=".user_client.home.SeetheGardenActivity" />
+        <activity android:name=".user_client.home.MovetocartActivity" />
+        <activity android:name=".user_client.home.CommentOrderDetailActivity" />
+        <activity android:name=".user_picorear.OrderpicoDetailActivity" />
+        <activity android:name=".user_client.home.OrderDetailActivity" />
+        <activity
+            android:name=".user_antigaspi.DonationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_client.home.GardenProductActivity" />
+        <activity android:name=".user_picorear.DonationaroundmedetailActivity" />
+        <activity android:name=".user_picorear.fragment.MyPicoGardenActivity" />
+        <activity android:name=".user_antigaspi.BasicActivity" />
+        <activity
+            android:name=".user_client.home.GardensActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_picorear.ManagePicoofferActivity" />
+        <activity android:name=".user_antigaspi.AntigaspiRating" />
+        <activity android:name=".user_picorear.PicoRating" />
+        <activity android:name=".user_picorear.PicoOrderActivity" />
+        <activity android:name=".user_client.home.ReceipyAddcomment" />
+        <activity android:name=".user_client.home.ReceipyDetailActivity" />
+        <activity android:name=".user_client.home.WishlistActivity" />
+        <activity android:name=".user_client.home.AboutActivity" />
+        <activity android:name=".user_client.home.Termsandconditionactivity" />
+        <activity android:name=".user_client.home.ContactusActivity" />
+        <activity android:name=".user_antigaspi.AntiOfferDetailActivity" />
+        <activity android:name=".user_picorear.PicoBookingDetailActivity" />
+        <activity android:name=".user_antigaspi.AddtogardenActivity" />
+        <activity android:name=".user_antigaspi.AntiproductdetailActivity" />
+        <activity
+            android:name=".user_client.mywallet.AddBankActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user_antigaspi.UserAntigaspiHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_client.profile.ProfileActivity" />
+        <activity
+            android:name=".user_client.Signup.RegisterAdditionalFieldActivity"
+            android:label="@string/additional_field" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".user_client.Signup.SignupView.SignUpActivity" />
+        <activity
+            android:name=".user_client.home.UserCliantHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_client.products.ProductDetailsActivity" />
+        <activity
+            android:name=".user_client.cart.AddToCartActivity"
+            android:theme="@style/AppTheme.NoActionBarTransperent" />
+        <activity android:name=".user_client.profile.EditprofileActivity" />
+        <activity
+            android:name=".user_client.address.AddAddressActivity"
+            android:theme="@style/AppTheme.NoActionBarTransperent" />
+        <activity android:name=".user_client.cart.MyCartActivity" />
+        <activity android:name=".user_picorear.AddOfferActivity" />
+        <activity
+            android:name=".user_picorear.UserPicorearHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
